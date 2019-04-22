@@ -13,10 +13,10 @@ def list_instances():
 			i.placement['AvailabilityZone'],
 			i.state['Name'],
 			i.public_dns_name)))
-
+		print(i)
 	return
 
-		print(i)
+
 
 if __name__ == '__main__':
 
