@@ -15,3 +15,13 @@ shotty.py uses the configuration file created by the AWS cli
 ## Running
 
 `pip env python shotty/shotty.py`
+
+
+#Commands
+ list       List EC2 instances
+ start      Start EC2 instances
+ stop       Stop EC2 instances
+ terminate  Terminate EC2 instances
+
+*command* is list, start, or stop
+*project* is optional
