@@ -21,7 +21,7 @@ shotty.py uses the configuration file created by the AWS cli
  To list volumes
   pipenv run python shotty/shotty.py "volumes" "list" "--project=Valkyrie"
   
-  
+	
 
 #Commands to handles instances
  list       List EC2 instances
